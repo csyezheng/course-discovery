@@ -1,0 +1,16 @@
+debug: true
+darktable-cli: /usr/bin/darktable-cli
+assets-path: /srv/photoprism
+cache-path: /srv/photoprism/cache
+originals-path: /srv/photoprism/photos/originals
+import-path: /srv/photoprism/photos/import
+export-path: /srv/photoprism/photos/export
+sql-host: 127.0.0.1
+sql-port: 3307
+sql-password:
+http-host:
+http-mode: release
+http-port: 80
+http-password:
+database-driver: mysql
+database-dsn: zhengye:@tcp(127.0.0.1:3307)/discovery?parseTime=true
